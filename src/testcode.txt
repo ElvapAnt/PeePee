@@ -1,0 +1,18 @@
+// Sample program for PvLexer testing
+main
+    int myVar;
+    float number;
+    bool flag;
+
+    // Assignment and arithmetic expressions
+    myVar := 123;
+    number := 0.456E+2;
+
+    // Boolean assignment
+    flag := true;
+
+    // Apply expression with for loop
+    for i in [myVar, number] apply
+        myVar := myVar + 1;
+
+exit
